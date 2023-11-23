@@ -1,13 +1,59 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: rgba(137, 134, 134, 0.357);
   margin: 0;
-  padding: 20px;
+  padding: 0px;
 }
-
 h1 {
   text-align: center;
   color: #333;
 }
+p{
+  margin: 0;
+  padding: 0;
+}
+span{
+  font-weight: bold;
+}
+#listaUsuarios, .conjunto{
+  display: flex;
+  font-size: smaller;
 
+}
+#listaUsuarios{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; 
+}
+.conjunto{
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+}
+li{
+  display: flex;
+}
+.datos{
+  width: 200px;
+  padding: 5px;
+  border: solid 1px rgb(145, 145, 154);
+}
+.primero{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+
+}
+.segundo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img{
+ width:90px;
+}
 
