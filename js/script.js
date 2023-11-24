@@ -45,6 +45,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
         }
     })
     .catch(error => {
-        console.error(error)
-        listaUsuarios.innerHTML = "Error al cargar los datos."
+        listaUsuarios.innerHTML = error("Error al cargar los datos.")
     })
+console.log();
