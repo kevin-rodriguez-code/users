@@ -17,7 +17,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
                 img: `../assets/img/${usuario.id}.jpeg`,
             }
         })
-        console.log(usuariosNuevosDatos)
 
         for (const usuario of usuariosNuevosDatos) {
             const { name, age, username, img, phone, email, company, address } = usuario
